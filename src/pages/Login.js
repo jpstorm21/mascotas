@@ -1,4 +1,4 @@
-function App() {
+export const Login = () => {
   return (
     <div className="container">
       <div className="row justify-content-center">
@@ -84,6 +84,4 @@ function App() {
       </div>
     </div>
   );
-}
-
-export default App;
+};
