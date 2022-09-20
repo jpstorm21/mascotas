@@ -10,7 +10,9 @@ export const Login = () => {
                 <div className="col-lg-6">
                   <div className="p-5">
                     <div className="text-center">
-                      <h1 className="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                      <h1 className="h4 text-gray-900 mb-4">
+                        Clinica Veterinaria <br /> Puertas del Mar
+                      </h1>
                     </div>
                     <form className="user">
                       <div className="form-group">
@@ -19,7 +21,7 @@ export const Login = () => {
                           className="form-control form-control-user"
                           id="exampleInputEmail"
                           aria-describedby="emailHelp"
-                          placeholder="Enter Email Address..."
+                          placeholder="Email"
                         />
                       </div>
                       <div className="form-group">
@@ -27,52 +29,33 @@ export const Login = () => {
                           type="password"
                           className="form-control form-control-user"
                           id="exampleInputPassword"
-                          placeholder="Password"
+                          placeholder="Contraseña"
                         />
-                      </div>
-                      <div className="form-group">
-                        <div className="custom-control custom-checkbox small">
-                          <input
-                            type="checkbox"
-                            className="custom-control-input"
-                            id="customCheck"
-                          />
-                          <label className="custom-control-label">
-                            Remember Me
-                          </label>
-                        </div>
                       </div>
                       <a
                         href="index.html"
                         className="btn btn-primary btn-user btn-block"
                       >
-                        Login
+                        Iniciar sesión
                       </a>
                       <hr />
                       <a
                         href="index.html"
                         className="btn btn-google btn-user btn-block"
                       >
-                        <i className="fab fa-google fa-fw"></i> Login with
-                        Google
-                      </a>
-                      <a
-                        href="index.html"
-                        className="btn btn-facebook btn-user btn-block"
-                      >
-                        <i className="fab fa-facebook-f fa-fw"></i> Login with
-                        Facebook
+                        <i className="fab fa-google fa-fw"></i> Iniciar sesión
+                        con Google
                       </a>
                     </form>
                     <hr />
                     <div className="text-center">
                       <a className="small" href="forgot-password.html">
-                        Forgot Password?
+                        ¿Olvidaste tu contraseña?
                       </a>
                     </div>
                     <div className="text-center">
                       <a className="small" href="register.html">
-                        Create an Account!
+                        Crear una nueva cuenta
                       </a>
                     </div>
                   </div>
